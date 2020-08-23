@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Petagram</string>
     <string name="item_favorite_name">Favoritos</string>
+    <string name="toast_camera_button">Camera button touched!</string>
 </resources>

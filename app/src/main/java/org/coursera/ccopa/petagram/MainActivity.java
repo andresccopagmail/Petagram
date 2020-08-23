@@ -8,7 +8,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
                     default:
                         return false;
                 }
+            }
+        });
+
+        FloatingActionButton floatingButtonMain = findViewById(R.id.floatingButtonMain);
+        floatingButtonMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, R.string.toast_camera_button, Toast.LENGTH_SHORT).show();
             }
         });
 

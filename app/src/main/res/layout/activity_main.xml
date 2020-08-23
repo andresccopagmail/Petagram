@@ -33,4 +33,16 @@
 
     </LinearLayout>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingButtonMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:elevation="8dp"
+        app:srcCompat="@drawable/ic_camera"
+        app:backgroundTint="?attr/colorAccent"
+        app:tint="?attr/colorOnPrimary"/>
+
 </RelativeLayout>
