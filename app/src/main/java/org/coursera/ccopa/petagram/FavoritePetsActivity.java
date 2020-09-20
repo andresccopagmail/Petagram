@@ -44,9 +44,10 @@ public class FavoritePetsActivity extends AppCompatActivity {
 
     private void generatePets() {
         petModelList = new ArrayList<>();
-        petModelList.add(new PetModel(R.drawable.dog3, "Pluto", 2, false));
-        petModelList.add(new PetModel(R.drawable.cat2, "Michi", 3, false));
-        petModelList.add(new PetModel(R.drawable.dog1, "Docky", 1, false));
-        petModelList.add(new PetModel(R.drawable.cat1, "Roro", 5, false));
+        petModelList.add(new PetModel(R.drawable.dog5, "Pluto", 2, false));
+        petModelList.add(new PetModel(R.drawable.cat4, "Michi", 3, false));
+        petModelList.add(new PetModel(R.drawable.dog3, "Docky", 1, false));
+        petModelList.add(new PetModel(R.drawable.cat6, "Roro", 5, false));
+        petModelList.add(new PetModel(R.drawable.dog1, "Roro", 5, false));
     }
 }

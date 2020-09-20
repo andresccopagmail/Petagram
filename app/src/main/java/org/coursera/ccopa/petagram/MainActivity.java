@@ -71,5 +71,11 @@ public class MainActivity extends AppCompatActivity {
         petModelList.add(new PetModel(R.drawable.dog1, "Blacky", 1, false));
         petModelList.add(new PetModel(R.drawable.dog2, "Suchard", 2, false));
         petModelList.add(new PetModel(R.drawable.dog3, "Kuroinu", 4, false));
+        petModelList.add(new PetModel(R.drawable.cat4, "Pelusa", 3, false));
+        petModelList.add(new PetModel(R.drawable.cat5, "Tommy", 2, false));
+        petModelList.add(new PetModel(R.drawable.cat6, "Pompom", 5, false));
+        petModelList.add(new PetModel(R.drawable.dog4, "Tom", 1, false));
+        petModelList.add(new PetModel(R.drawable.dog5, "Sam", 2, false));
+        petModelList.add(new PetModel(R.drawable.dog6, "Dot", 4, false));
     }
 }
